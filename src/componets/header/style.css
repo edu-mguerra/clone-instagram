@@ -1,0 +1,46 @@
+.header{
+    background-color: var(--background);
+    border-bottom: 1px solid var(--border);
+    position: fixed;
+    width: 100%;
+    top: 0;
+
+
+}
+
+.header .cotainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    max-width: 957px;
+    margin: 0 auto;
+    width: 90%;
+    
+}
+
+.header .cotainer .logo{
+    width: 12.5%;
+    cursor: pointer;
+}
+
+.input-fake{
+    background-color: var(--background-main);
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+    border: 1px solid var(--border);
+    padding: 3px 10px;
+}
+
+.input-fake input{
+    font-size: 14px;
+    padding: 0 7px;
+}
+
+.menu-icons{
+    gap: 16px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+}
